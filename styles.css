@@ -1,0 +1,318 @@
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap";
+
+body {
+  margin: 0;
+  position: relative;
+  width: auto;
+}
+
+.cabecario {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+}
+
+.h1 {
+  margin: 0;
+}
+
+.h1 img {
+  margin: 36.1px 0 0 231px;
+  width: 90.6px;
+  height: 26.9px;
+}
+
+.about {
+  margin: 0;
+  text-align: center;
+  position: absolute;
+}
+
+.about a {
+  position: absolute;
+  margin-top: 38px;
+  margin-left: 444px;
+  width: 42px;
+  height: 19px;
+  font-size: 16px;
+  font-family: Roboto-Regular;
+  text-decoration: none;
+  color: #111;
+}
+
+.recipe {
+  margin: 0;
+  text-align: center;
+  position: absolute;
+}
+
+.recipe a {
+  margin: 38px 0 0 516px;
+  position: absolute;
+  width: 62px;
+  height: 19px;
+  font-size: 16px;
+  font-family: Roboto-Regular;
+  text-decoration: none;
+  color: #111;
+}
+
+#index_section section {
+  position: relative;
+}
+
+.bloco_rosa {
+  position: absolute;
+  margin: 0 auto;
+  background: #FBDFDB;
+  border-radius: 30px;
+  border-radius: 30px;
+  max-width: 940px;
+  height: 366px;
+  margin-top: 30px;
+  margin-left: 230px;
+  width: 940px;
+  z-index: -1;
+}
+
+#index_section h2 {
+  margin: 0;
+  position: relative;
+  padding-top: 117px;
+  padding-left: 60px;
+  width: 305px;
+  height: 38px;
+  font-family: Roboto-Bold;
+  font-size: 32px;
+}
+
+.bloco_rosa p {
+  margin: 0;
+  opacity: 0.7;
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  color: #000000;
+  line-height: 28px;
+  padding-top: 10px;
+  padding-left: 60px;
+  max-width: 316px;
+  height: 84px;
+}
+
+.links h3 {
+  font-family: Roboto-Bold;
+  font-size: 24px;
+  padding-left: 230px;
+  padding-top: 50px;
+  margin: 0;
+  position: relative;
+  width: 174px;
+  height: 28px;
+}
+
+/* == CHEFE == */
+.chefe img {
+  width: 216px;
+  height: 300px;
+  z-index: 1;
+  margin: 98px 0 0 854px;
+}
+
+/* == CARDS == */
+
+.cards {
+  max-width: 300px;
+  height: 202px;
+  margin: 50px 0 0 230px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+
+}
+
+.card_img img {
+  width: 300px;
+  margin: 0;
+  border-radius: 15px;
+}
+
+.card_title p {
+  margin: 20px 0 0 0;
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  max-width: 249px;
+}
+
+.card_cooker p {
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: #777777;
+  margin: 5px 0 0 0px;
+  max-width: 118px;
+  height: 16px;
+}
+
+footer {
+  background: #EEEEEE;
+  width: 1400px;
+  height: 62px;
+  margin: 303px 0 0 0;
+}
+
+footer p {
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  padding: 23px 566px 23px 567px;
+  width: 267px;
+  height: 16px;
+  margin: 0;
+}
+
+/* == ABOUT page == */
+
+#about_section h2 {
+  width: 164px;
+  height: 28px;
+  margin: 50px 0 0 230px;
+  font-family: Roboto-Bold;
+  font-size: 24px;
+}
+
+#about_foodfy {
+  margin: 20px 0 0 230px;
+  max-width: 940px;
+  height: 280px;
+}
+
+#about_section p,
+#about_section p2 {
+  margin: 0;
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  color: #444444;
+  line-height: 28px;
+  opacity: 100%;
+}
+
+#about_section h3 {
+  width: 202px;
+  height: 24px;
+  margin: 30px 0 0 230px;
+  font-family: Roboto-Bold;
+  font-size: 20px;
+}
+
+#how_starts {
+  margin: 20px 0 0 230px;
+  max-width: 940px;
+  height: 280px;
+}
+
+#how_starts p,
+#how_starts p2 {
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  color: #444444;
+  line-height: 28px;
+}
+
+#about_section h4 {
+  font-family: Roboto-Bold;
+  font-size: 20px;
+  margin: 30px 0 0 230px;
+}
+
+#our_recipes {
+  margin: 20px 0 0 230px;
+  max-width: 940px;
+  height: 112px;
+}
+
+#our_recipes p {
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  color: #444444;
+  line-height: 28px;
+}
+
+#footer_about {
+  background: #EEEEEE;
+  width: 1400px;
+  height: 62px;
+  margin: 50px 0 0 0;
+}
+
+#footer_about p {
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  padding: 23px 566px 23px 567px;
+  width: 267px;
+  height: 16px;
+  margin: 0;
+}
+
+#footer_recipes {
+  background: #EEEEEE;
+  width: 1400px;
+  height: 62px;
+  margin: 746px 0 0 0;
+}
+
+/* == MODAL ==*/
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal {
+  background-color: white;
+  width: 660px;
+  height: 413px;
+  border-radius: 16px;
+  margin: 5vh auto;
+  position: relative;
+}
+
+.modal .close-modal {
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  color: #999999;
+  position: absolute;
+  right: 281px;
+  bottom: 30px;
+  cursor: pointer;
+  width: 98px;
+  height: 19px;
+}
+
+.modal-overlay.active{
+  opacity: 1;
+  visibility: visible;
+}
+
+#modal-img {
+  margin: 30px 30px 183px 30px;
+  width: 600px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.modal-content p {
+  margin: -163px 0 0 164px;
+  width: 332px;
+  height: 28px;
+  font-family: Roboto-Regular;
+  font-size: 24px;
+  color: #111111;
+  text-align: center;
+}
